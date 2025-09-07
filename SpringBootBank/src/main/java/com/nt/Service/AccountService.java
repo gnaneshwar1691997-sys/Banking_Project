@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.nt.Entity.Accounts;
 import com.nt.Repo.Repo;
-import com.nt.Repo.Repo;
 
 
 @Service
