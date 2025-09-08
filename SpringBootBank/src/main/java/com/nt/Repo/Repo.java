@@ -16,6 +16,7 @@ public interface Repo extends JpaRepository<Accounts, Integer>{
 
 	Optional<Accounts> findByAccountId(int accountId);
 	Optional<Accounts> findByBalance(int balance);
+	Optional
 	
 
     }
