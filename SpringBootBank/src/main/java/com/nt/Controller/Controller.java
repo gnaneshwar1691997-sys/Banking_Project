@@ -41,7 +41,7 @@ public class Controller {
 		} catch (IllegalArgumentException e) {
 			return ResponseEntity.status(HttpStatus.CONFLICT).body(e.getMessage());
 		}
-	}
+	
 
 	@PutMapping("/update/{id}")
 	public ResponseEntity<?> updateAccount(@PathVariable int id, @RequestBody Accounts updatedAccount) {
